@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://dk3aydm1rhles"]
+
+[ext_resource type="Theme" uid="uid://l6ulcjiyt0gn" path="res://theme.tres" id="1_yranm"]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_right = 241.0
+offset_bottom = 100.0
+theme_override_constants/separation = 10
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("1_yranm")
+text = "Strategy deluxe"
+
+[node name="TurnLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+theme = ExtResource("1_yranm")
+text = "Turn: 1"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "End turn"
