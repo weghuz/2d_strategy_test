@@ -7,4 +7,3 @@ class_name Tile
 func _init(initial_position: Vector2, initial_tile: Vector2):
 	position = initial_position
 	tile = initial_tile
-
